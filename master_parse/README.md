@@ -135,7 +135,7 @@ Master parse labels are cells that are marked with special tokens that only
 the master parse tool recognizes. Some labels make sense only in code cells.
 Others can be used in code cells, Markdown cells, etc.
 
-All  labels _must_ be preceded by a single command character, and the comment
+All  labels _must_ be preceded by a single comment character, and the comment
 character must be correct for the notebook type. That is, a Python notebook
 (ending in `.py`) always uses "#" as the comment character. This is true
 even in Markdown cells.
